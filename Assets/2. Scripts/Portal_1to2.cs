@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Portal : Collidable
+public class Portal_1to2 : Collidable
 {
     public string[] sceneNames;
 
@@ -9,7 +9,7 @@ public class Portal : Collidable
         if (coll.name == "Player")
         {
             // 플레이어 이동
-            string sceneName = sceneNames[2];
+            string sceneName = sceneNames[1];
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         }
     }

@@ -31279,8 +31279,9 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   sceneNames:
+  - HSH_Stage
   - Stage2
-  - Stage3
+  - S
 --- !u!1001 &1790818491
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2271,6 +2271,7 @@ GameObject:
   - component: {fileID: 160017828}
   - component: {fileID: 160017832}
   - component: {fileID: 160017831}
+  - component: {fileID: 160017833}
   m_Layer: 21
   m_Name: Layer2_Wall
   m_TagString: Untagged
@@ -4123,6 +4124,36 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!60 &160017833
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160017826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 10.035466, y: -4.9977837}
+      - {x: 10.086914, y: -6.9797845}
+      - {x: 10.774804, y: -6.9653306}
+      - {x: 11.844485, y: -6.9669514}
+      - {x: 11.860126, y: -5.014811}
 --- !u!1001 &162590917
 PrefabInstance:
   m_ObjectHideFlags: 0
